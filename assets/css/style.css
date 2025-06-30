@@ -11,6 +11,7 @@
 html,
 body {
     scroll-behavior: smooth;
+    overflow-x: clip;
 }
 
 html {
@@ -1086,6 +1087,7 @@ input:-webkit-autofill {
 }
 
 .footer-copyright__desc {
+    margin-top: 0;
     color: var(--white);
     text-align: center;
 }
